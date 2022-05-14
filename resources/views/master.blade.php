@@ -41,6 +41,9 @@ img.slider-img{
 .trending-wrapper{
     margin: 30px;
 }
+.details-img{
+    height: 300px;
+}
 </style>    
 </body>
 </html>
