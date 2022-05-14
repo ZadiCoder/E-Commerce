@@ -10,7 +10,7 @@
         </ol>
       
         <!-- Wrapper for slides -->
-        <div class="carousel-inner">
+        <div class="carousel-inner"> 
             @foreach ($products as $item)
             <div class="item {{$item['id']==1?'active':''}}">
                 <img class="slider-img" src="{{$item['gallery']}}" alt="Chania">

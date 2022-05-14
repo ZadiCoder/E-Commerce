@@ -15,7 +15,7 @@
     {{View::make('header')}}
     @yield('content')
     {{View::make('footer')}}
-
+ 
 <style>
 .custom-login{
     height: 580px;
