@@ -44,6 +44,14 @@ img.slider-img{
 .details-img{
     height: 300px;
 }
+.search-box{
+        width: 500px !important
+    }
+.cart-list-devider{
+        border-bottom: 1px solid #ccc;
+        margin-bottom: 10px;
+        padding-bottom: 10px
+}
 </style>    
 </body>
 </html>
