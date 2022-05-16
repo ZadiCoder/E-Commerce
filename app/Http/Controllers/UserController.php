@@ -22,4 +22,20 @@ class UserController extends Controller
             return redirect('/');
         }
     }
+    function register(Request $req)
+    {
+      //  $users = new User;
+       // $users->name = $req->name;
+      //  $users->email = $req->email;
+      //  $users->password = Hash::make($req->password);
+       // $users->save();
+      //  return redirect('/login');
+    $user = DB::table('user')->insert([
+        'name'=> $req->name,
+        'email'=> $req->email,
+        'password'=>Hash::make($req->password)
+    ]);
+       
+        return redirect('/login');
+    }
 }
