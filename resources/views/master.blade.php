@@ -53,5 +53,6 @@ img.slider-img{
         padding-bottom: 10px
 }
 </style>    
+
 </body>
 </html>
